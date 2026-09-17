@@ -1,0 +1,713 @@
+{
+  "Amministrazione": {
+    "parole_chiave": [
+      "fattura",
+      "pagamento",
+      "bonifico",
+      "importo",
+      "conto",
+      "saldo",
+      "estratto conto",
+      "addebito",
+      "rimborso",
+      "scadenza",
+      "IVA",
+      "contabilità",
+      "credito",
+      "debito",
+      "sollecito",
+      "rendiconto",
+      "quietanza",
+      "ricevuta",
+      "registrazione",
+      "chiusura",
+      "bilancio"
+    ],
+    "parole_correlate": {
+      "fattura": [
+        "documento",
+        "ricevuta",
+        "polizza",
+        "bollettino",
+        "nota di credito",
+        "distinta",
+        "parcella",
+        "rendiconto",
+        "conteggio",
+        "prospetto"
+      ],
+      "pagamento": [
+        "versamento",
+        "bonifico",
+        "transazione",
+        "corresponsione",
+        "erogazione",
+        "liquidazione",
+        "saldo",
+        "regolamento",
+        "esborso",
+        "trasferimento"
+      ],
+      "importo": [
+        "somma",
+        "cifra",
+        "ammontare",
+        "totale",
+        "valore",
+        "costo",
+        "spesa",
+        "onere",
+        "quota",
+        "prezzo"
+      ],
+      "rimborso": [
+        "restituzione",
+        "accredito",
+        "reso",
+        "reversione",
+        "storno",
+        "compensazione",
+        "riaccredito",
+        "conguaglio",
+        "recupero",
+        "indennizzo"
+      ],
+      "discrepanza": [
+        "incongruenza",
+        "differenza",
+        "anomalia",
+        "variazione",
+        "scostamento",
+        "difformità",
+        "disallineamento",
+        "divergenza",
+        "errore",
+        "incoerenza"
+      ],
+      "non corrisponde": [
+        "non coincide",
+        "diverso da",
+        "presenta varianza",
+        "differisce",
+        "non è allineato",
+        "è discordante",
+        "non combacia",
+        "si discosta",
+        "varia rispetto",
+        "diverge da"
+      ],
+      "estratto conto": [
+        "rendicontazione",
+        "movimenti",
+        "transazioni registrate",
+        "riepilogo",
+        "estratto",
+        "situazione contabile",
+        "storico operazioni",
+        "lista movimenti",
+        "dettaglio",
+        "report"
+      ]
+    },
+    "ticket_templates": [
+      {
+        "titolo": "Richiesta fattura per {dettagli_titolo}",
+        "descrizione": [
+          "Non ho riesco a reperire il documento fiscale relativo a {dettagli_descrizione}. Potreste inviarla?",
+          "Avrei necessità di ricevere copia della documentazione {dettagli_descrizione}. Sarebbe possibile riceverla?",
+          "Potete verificare se è stata emessa la fattura relativa a {dettagli_descrizione}. Potete fornirla in formato pdf?",
+          "Nei nostri archivi non compare il documento {dettagli_descrizione}.",
+          "E' possibile ottenere una copia del documento contabile {dettagli_descrizione}.",
+          "Mi serve il documento fiscale di {dettagli_descrizione} per la chiusura.",
+          "Potete controllare se la fattura {dettagli_descrizione} è stata emessa?",
+          "Non trovo traccia della ricevuta per {dettagli_descrizione} nel sistema contabile.",
+          "Potete controllare la disponibilità del documento {dettagli_descrizione}, nel nostro sistema non è presente."
+        ],
+        "priorita": "media"
+      },
+      {
+        "titolo": "Pagamento {dettagli_titolo} in sospeso",
+        "descrizione": [
+          "Vorrei verificare lo stato del pagamento relativo a {dettagli_descrizione} che risulta ancora in elaborazione",
+          "Abbiamo disposto il versamento relativo a {dettagli_descrizione} ma non compare alcun aggiornamento.",
+          "La somma destinata a {dettagli_descrizione} non è ancora stata contabilizzata.",
+          "Dopo alcuni giorni non abbiamo ricevuto conferma dell'avvenuta operazione {dettagli_descrizione}.",
+          "Il trasferimento relativo a {dettagli_descrizione} sembra essere ancora in lavorazione.",
+          "La disposizione effettuata per {dettagli_descrizione} non presenta ancora un esito.",
+          "Non troviamo evidenza dell'operazione associata a {dettagli_descrizione}",
+          "Il bonifico relativo a {dettagli_descrizione} non compare ancora tra le operazioni registrate. Potete verificare?",
+          "Vorrei sapere a che punto è il trasferimento fondi per {dettagli_descrizione}.",
+          "Il saldo {dettagli_descrizione} dovrebbe già essere stato processato, ma non risulta."
+        ],
+        "priorita": "alta"
+      },
+      {
+        "titolo": "Sollecito per {dettagli_titolo}",
+        "descrizione": [
+          "La posizione relativa a {dettagli_descrizione} risulta ancora da regolare.",
+          "Non abbiamo ancora ricevuto riscontro in merito a {dettagli_descrizione}.",
+          "Il saldo relativo a {dettagli_descrizione} non risulta ancora aggiornato.",
+          "La situazione contabile di {dettagli_descrizione} necessita di un aggiornamento.",
+          "È passato più di un mese dalla scadenza di {dettagli_descrizione} e non abbiamo avuto notizie.",
+          "Gentilmente chiedo un aggiornamento su {dettagli_descrizione} che risulta in arretrato.",
+          "La pratica indicata {dettagli_descrizione} non risulta ancora definita.",
+          "E' necessario un aggiornamento sulla posizione {dettagli_descrizione} che risulta ancora aperta.",
+          "Vorremmo ricevere un aggiornamento sulla pendenza relativa a {dettagli_descrizione}.",
+          "Segnaliamo che la posizione {dettagli_descrizione} non risulta ancora chiusa."
+        ],
+        "priorita": "alta"
+      },
+      {
+        "titolo": "Richiesta rimborso per {dettagli_titolo}",
+        "descrizione": [
+          "Vorrei richiedere la restituzionedella somma versata per {dettagli_descrizione} in quanto il servizio non è stato fornito come concordato.",
+          "Abbiamo pagato per {dettagli_descrizione} ma il servizio non è mai stato attivato. Come possiamo procedere?",
+          "E' possibile procedere con un riaccredito relativo a {dettagli_descrizione}.",
+          "La prestazione ricevuta per {dettagli_descrizione} non rispettaquanto concordatoe vorrei richiedere la restituzione.",
+          "Il servizio {dettagli_descrizione} non corrisponde a quanto ordinato. È possibile ottenere un rimborso?",
+          "Considerato il mancato servizio {dettagli_descrizione}, chiediamo di stornare la somma versata.",
+          "Vorrei ottenere un conguaglio per la prestazione relativa a {dettagli_descrizione}.",
+          "La somma corrisposta dovrebbe essere restituita a seguito del disservizio per {dettagli_descrizione}.",
+          "È necessario annullare l'addebito associato a {dettagli_descrizione}?",
+          "Chiediamo di valutare il recupero della cifra versata per {dettagli_descrizione}."
+        ],
+        "priorita": "media"
+      },
+      {
+        "titolo": "Documentazione contabile {dettagli_titolo}",
+        "descrizione": [
+          "Avrei bisogno dell'archivio documentale relativo a {dettagli_descrizione}.",
+          "Potete fornire i documenti necessari per la revisione di {dettagli_descrizione}?",
+          "Ci occorre il riepilogo delle operazioni associate a {dettagli_descrizione}.",
+          "Sto predisponendo la documentazione per la chiusura contabile e mi serve {dettagli_descrizione}.",
+          "Chiedo di ricevere la reportistica relativa a {dettagli_descrizione}.",
+          "Per una verifica interna necessitiamo dei registri riguardanti {dettagli_descrizione}.",
+          "Vorrei recuperare i documenti amministrativi collegati a {dettagli_descrizione}.",
+          "È possibile ottenere il prospetto completo delle movimentazioni di {dettagli_descrizione}.",
+          "Ci serve il materiale contabile relativo a {dettagli_descrizione} per completare la revisione",
+          "Potete mettere a disposizione la documentazione necessaria per il controllo di {dettagli_descrizione}."
+        ],
+        "priorita": "bassa"
+      },
+      {
+        "titolo": "Documentazione amministrativa {dettagli_titolo}",
+        "descrizione": [
+          "Avrei bisogno del prospetto contabile relativo a {dettagli_descrizione} per una verifica interna.",
+          "Potete fornire il riepilogo delle operazioni effettuate per {dettagli_descrizione}?",
+          "Sto raccogliendo i documenti necessari per la revisione di {dettagli_descrizione}.",
+          "Mi occorre lo storico delle movimentazioni associate a {dettagli_descrizione} per completare la rendicontazione.",
+          "Sarebbe possibile ricevere una copia dei registri contabili relativi a {dettagli_descrizione}?",
+          "Vorrei consultare il dettaglio delle operazioni riguardanti {dettagli_descrizione} per un controllo amministrativo.",
+          "Chiedo l'invio della documentazione fiscale collegata a {dettagli_descrizione}.",
+          "Per la verifica periodica ci serve un riepilogo della situazione contabile di {dettagli_descrizione}.",
+          "È possibile ottenere la reportistica amministrativa relativa a {dettagli_descrizione}?",
+          "Sto effettuando un controllo sui dati di {dettagli_descrizione} e avrei necessità della relativa documentazione."
+        ],
+        "priorita": "bassa"
+      }
+    ],
+    "dettagli_titolo": [
+      "mese corrente",
+      "Q1 2024",
+      "servizio cloud",
+      "consulenza",
+      "licenza software",
+      "abbonamento annuale",
+      "contratto di manutenzione",
+      "rinnovo servizi",
+      "periodo fiscale",
+      "trimestre chiuso",
+      "anno contabile",
+      "servizio premium",
+      "fornitura materiali",
+      "prestazione professionale",
+      "canone mensile",
+      "quota associativa"
+    ],
+    "dettagli_descrizione": [
+      "gennaio 2024",
+      "contratto n.12345",
+      "il servizio premium",
+      "la fattura n.567",
+      "il pagamento ricorrente",
+      "la transazione del 15/10",
+      "l'abbonamento trimestrale",
+      "il servizio di supporto",
+      "l'ordine ORD-2024-001",
+      "la posizione cliente CLI-789",
+      "il contratto quadro",
+      "l'accordo commerciale",
+      "la fornitura di dicembre",
+      "il canone di febbraio",
+      "la rata semestrale",
+      "il compenso consulenza",
+      "l'importo convenuto"
+    ]
+  },
+  "Tecnico": {
+    "parole_chiave": [
+      "sistema",
+      "gestionale",
+      "applicazione",
+      "connessione",
+      "server",
+      "login",
+      "accesso",
+      "ordine",
+      "commessa",
+      "catalogo",
+      "configuratore",
+      "produzione",
+      "file",
+      "grafica",
+      "anteprima",
+      "stampa",
+      "macchinario",
+      "dati",
+      "errore",
+      "configurazione"
+    ],
+    "parole_correlate": {
+      "anomalia": [
+        "comportamento inatteso",
+        "funzionamento irregolare",
+        "irregolarità",
+        "malfunzionamento",
+        "difetto",
+        "problema tecnico",
+        "criticità",
+        "disfunzione",
+        "errore di sistema"
+      ],
+      "interruzione": [
+        "stop",
+        "sospensione",
+        "blocco",
+        "crash",
+        "fermo",
+        "arresto",
+        "chiusura improvvisa",
+        "interruzione temporanea",
+        "terminazione"
+      ],
+      "non funziona": [
+        "non operativo",
+        "non risponde",
+        "non disponibile",
+        "fuori servizio",
+        "inattivo",
+        "non accessibile",
+        "non raggiungibile",
+        "indisponibile",
+        "inaccessibile",
+        "non funzionante"
+      ],
+      "sistema": [
+        "gestionale",
+        "applicazione",
+        "piattaforma",
+        "componente",
+        "servizio",
+        "software",
+        "programma",
+        "interfaccia",
+        "strumento",
+        "configuratore"
+      ],
+      "fermo": [
+        "bloccato",
+        "sospeso",
+        "inattivo",
+        "in stallo",
+        "arrestato",
+        "in pausa",
+        "non responsivo",
+        "non disponibile",
+        "non operativo",
+        "momentaneamente inattivo"
+      ],
+      "ritardo": [
+        "lentezza",
+        "rallentamento",
+        "tempi lunghi",
+        "latenza",
+        "prestazioni ridotte",
+        "esecuzione lenta",
+        "elaborazione lenta",
+        "risposta ritardata",
+        "risposta lenta",
+        "tempo di risposta elevato"
+      ],
+      "accesso negato": [
+        "autenticazione fallita",
+        "credenziali non valide",
+        "permessi insufficienti",
+        "login rifiutato",
+        "autorizzazione negata",
+        "problemi durante l'autenticazione",
+        "privilegi mancanti",
+        "sessione scaduta",
+        "account bloccato",
+        "difficoltà con le credenziali"
+      ]
+    },
+    "ticket_templates": [
+      {
+        "titolo": "Comportamento anomalo durante {dettagli_titolo}",
+        "descrizione": [
+          "Durante la gestione di {dettagli_descrizione}, il gestionale restituisce un risultato diverso da quello previsto.",
+          "Quando provo a elaborare {dettagli_descrizione}, il sistema interrompe la procedura senza completare l'operazione.",
+          "L'applicazione presenta un comportamento inatteso durante {dettagli_descrizione}.",
+          "Ho riscontrato un'anomalia mentre preparavo {dettagli_descrizione} per la produzione.",
+          "La procedura relativa a {dettagli_descrizione} non produce sempre lo stesso risultato.",
+          "Durante la lavorazione di {dettagli_descrizione}, alcune informazioni vengono visualizzate in modo non corretto.",
+          "Il sistema gestisce in maniera irregolare {dettagli_descrizione} e in alcuni casi interrompe il processo.",
+          "Utilizzando {dettagli_descrizione}, l'operazione non viene portata a termine come previsto.",
+          "Il problema compare durante {dettagli_descrizione}, anche dopo aver ripetuto la procedura.",
+          "Ho notato un comportamento anomalo in {dettagli_descrizione} che sta impedendo di completare la lavorazione."
+        ],
+        "priorita": "alta"
+      },
+      {
+        "titolo": "Funzionalità {dettagli_titolo} non operativa",
+        "descrizione": [
+          "La funzione relativa a {dettagli_descrizione} non completa l'operazione richiesta.",
+          "Quando utilizzo {dettagli_descrizione}, le modifiche effettuate non vengono salvate correttamente.",
+          "Il modulo dedicato a {dettagli_descrizione} consente di iniziare la procedura, ma non di completarla.",
+          "La sezione utilizzata per {dettagli_descrizione} non aggiorna correttamente le informazioni.",
+          "Durante la gestione di {dettagli_descrizione}, il comando selezionato non produce alcun risultato.",
+          "La procedura per {dettagli_descrizione} rimane in attesa senza arrivare alla conclusione.",
+          "Non riesco a completare {dettagli_descrizione}; l'interfaccia rimane attiva ma la funzione non risponde.",
+          "Il sistema registra l'operazione relativa a {dettagli_descrizione}, ma non la visualizza correttamente.",
+          "La funzionalità collegata a {dettagli_descrizione} non sembra essere disponibile in questo momento.",
+          "Ho provato più volte a eseguire {dettagli_descrizione}, ma il sistema non completa la richiesta."
+        ],
+        "priorita": "media"
+      },
+      {
+        "titolo": "Accesso negato a {dettagli_titolo}",
+        "descrizione": [
+          "Non riesco più ad accedere alla sezione relativa a {dettagli_descrizione} con il mio account.",
+          "Il login a {dettagli_descrizione} viene rifiutato nonostante le credenziali siano corrette.",
+          "Dopo l'ultimo aggiornamento non riesco ad entrare in {dettagli_descrizione}.",
+          "Quando provo ad aprire {dettagli_descrizione}, compare un messaggio relativo ai permessi.",
+          "La sessione su {dettagli_descrizione} viene chiusa automaticamente dopo l'autenticazione.",
+          "Le credenziali utilizzate per {dettagli_descrizione} non vengono più riconosciute.",
+          "Il mio account non dispone più dei privilegi necessari per utilizzare {dettagli_descrizione}.",
+          "L'accesso a {dettagli_descrizione} risulta disponibile ad altri utenti, ma non al mio profilo.",
+          "Il sistema impedisce di completare l'autenticazione necessaria per utilizzare {dettagli_descrizione}.",
+          "Dopo diversi tentativi, continuo a ricevere un messaggio di accesso negato per {dettagli_descrizione}."
+        ],
+        "priorita": "alta"
+      },
+      {
+        "titolo": "Sincronizzazione {dettagli_titolo}",
+        "descrizione": [
+          "I dati presenti in {dettagli_descrizione} non coincidono con quelli visualizzati nel gestionale.",
+          "L'aggiornamento automatico di {dettagli_descrizione} avviene con diversi minuti di ritardo.",
+          "Le modifiche effettuate su {dettagli_descrizione} non vengono immediatamente riportate nelle altre sezioni.",
+          "Ho notato una differenza tra le informazioni di {dettagli_descrizione} e quelle presenti nel sistema centrale.",
+          "Per visualizzare i dati aggiornati relativi a {dettagli_descrizione} devo ricaricare manualmente la pagina.",
+          "La sincronizzazione di {dettagli_descrizione} non avviene subito dopo la modifica dell'ordine.",
+          "Alcune informazioni relative a {dettagli_descrizione} risultano ancora precedenti rispetto agli ultimi aggiornamenti.",
+          "Le modifiche apportate durante la giornata non vengono trasferite correttamente a {dettagli_descrizione}.",
+          "Si verifica un disallineamento tra {dettagli_descrizione} e le informazioni utilizzate dalla produzione.",
+          "L'aggiornamento dei dati di {dettagli_descrizione} non è immediato e richiede talvolta un refresh."
+        ],
+        "priorita": "media"
+      },
+      {
+        "titolo": "Configurazione {dettagli_titolo}",
+        "descrizione": [
+          "Avrei bisogno di indicazioni per configurare correttamente {dettagli_descrizione}.",
+          "Non riesco a trovare l'impostazione necessaria per gestire {dettagli_descrizione}.",
+          "Potete indicarmi quali parametri utilizzare per {dettagli_descrizione}?",
+          "Sto cercando di modificare {dettagli_descrizione}, ma alcune opzioni non sono chiare.",
+          "Vorrei verificare la configurazione di {dettagli_descrizione} prima di utilizzarla per una nuova lavorazione.",
+          "Ho seguito le indicazioni disponibili per {dettagli_descrizione}, ma non riesco a completare tutti i passaggi.",
+          "Mi servirebbe supporto per impostare correttamente {dettagli_descrizione}.",
+          "Non sono sicuro che {dettagli_descrizione} sia configurato nel modo corretto e vorrei effettuare una verifica.",
+          "Avrei bisogno di assistenza per modificare alcuni parametri relativi a {dettagli_descrizione}.",
+          "Vorrei sapere come procedere con la configurazione di {dettagli_descrizione} senza modificare le altre impostazioni."
+        ],
+        "priorita": "bassa"
+      },
+      {
+        "titolo": "Richiesta di supporto per {dettagli_titolo}",
+        "descrizione": [
+          "Avrei bisogno di alcune indicazioni per gestire {dettagli_descrizione}.",
+          "Potete fornirmi qualche informazione su come utilizzare {dettagli_descrizione}?",
+          "Vorrei capire quali impostazioni sono disponibili per {dettagli_descrizione}.",
+          "Mi servirebbe un chiarimento sulla procedura da seguire per {dettagli_descrizione}.",
+          "Sto preparando una nuova lavorazione e vorrei alcune indicazioni riguardo a {dettagli_descrizione}.",
+          "Non mi è del tutto chiaro come procedere con {dettagli_descrizione}; potete aiutarmi?",
+          "Vorrei verificare il corretto utilizzo di {dettagli_descrizione} prima di procedere con l'ordine.",
+          "Mi occorrono alcune informazioni aggiuntive per gestire {dettagli_descrizione}.",
+          "È possibile ricevere indicazioni sulla gestione di {dettagli_descrizione}?",
+          "Vorrei sapere se esiste una procedura specifica per {dettagli_descrizione}.",
+          "Sto configurando una nuova commessa e avrei bisogno di qualche informazione relativa a {dettagli_descrizione}.",
+          "Potete indicarmi come utilizzare correttamente {dettagli_descrizione} nelle prossime lavorazioni?",
+          "Vorrei conoscere le impostazioni consigliate per {dettagli_descrizione}.",
+          "Mi servirebbe supporto per capire come gestire {dettagli_descrizione} nel gestionale.",
+          "Avrei bisogno di un'indicazione sui passaggi necessari per completare {dettagli_descrizione}."
+        ],
+        "priorita": "bassa"
+      }
+    ],
+    "dettagli_titolo": [
+      "gestione ordini",
+      "catalogo prodotti",
+      "configuratore gadget",
+      "anteprima grafica",
+      "caricamento file",
+      "distinta di produzione",
+      "scheda prodotto",
+      "preparazione commessa",
+      "esportazione lavorazione",
+      "stato della produzione",
+      "gestione clienti",
+      "archivio grafiche",
+      "modulo stampa",
+      "impostazioni macchina",
+      "generazione etichette",
+      "importazione ordini"
+    ],
+    "dettagli_descrizione": [
+      "un ordine di gadget personalizzati",
+      "un file con il logo del cliente",
+      "la bozza grafica di una commessa",
+      "una lavorazione destinata alla stampa",
+      "una serie di prodotti promozionali",
+      "una commessa con più articoli",
+      "un lotto di t-shirt personalizzate",
+      "alcuni articoli destinati alla produzione",
+      "un ordine ricevuto dal sito",
+      "una grafica caricata dal cliente",
+      "una lavorazione per incisione",
+      "un lotto di penne personalizzate",
+      "la configurazione di una nuova lavorazione",
+      "un file destinato al reparto produttivo",
+      "un ordine con quantità elevate",
+      "una serie di articoli con la stessa grafica",
+      "un prodotto configurato tramite il portale"
+    ]
+  },
+  "Commerciale": {
+    "parole_chiave": [
+      "ordine", 
+      "offerta", 
+      "preventivo", 
+      "quotazione", 
+      "prodotto", 
+      "gadget", 
+      "personalizzazione", 
+      "contratto", 
+      "listino", 
+      "sconto", 
+      "promozione", 
+      "disponibilità", 
+      "consegna", 
+      "spedizione", 
+      "catalogo", 
+      "cliente", 
+      "fornitura", 
+      "acquisto", 
+      "vendita", 
+      "condizioni"
+    ],
+    "parole_correlate": { 
+    "ordine": [
+      "commessa",
+      "richiesta", 
+      "acquisto", 
+      "fornitura", 
+      "ordine cliente", 
+      "articoli richiesti", 
+      "prodotti ordinati", 
+      "materiale richiesto", 
+      "richiesta di fornitura" 
+      ], 
+      "preventivo": [
+        "quotazione",
+        "offerta",
+        "stima",
+        "valutazione",
+        "proposta",
+        "budget",
+        "calcolo",
+        "prospetto",
+        "listino",
+        "offerta economica"
+      ], 
+      "disponibilità": [
+        "stock",
+        "giacenza",
+        "magazzino",
+        "inventario",
+        "scorte",
+        "disponibilità immediata",
+        "pronta consegna",
+        "a catalogo",
+        "reperibilità",
+        "quantità disponibile"
+      ],
+      "consegna": [
+        "spedizione",
+        "recapito",
+        "evasione",
+        "fornitura",
+        "trasporto",
+        "invio",
+        "data prevista",
+        "ricezione",
+        "tempi di consegna",
+        "data di arrivo"
+      ], 
+      "cliente": [
+        "cliente aziendale",
+        "acquirente",
+        "richiedente",
+        "destinatario",
+        "ordinante",
+        "compratore",
+        "referente",
+        "cliente finale",
+        "azienda richiedente"
+      ]
+    },
+    "ticket_templates": [
+      {
+        "titolo": "Disguido con richiesta cliente {dettagli_titolo}",
+        "descrizione": [
+          "Il cliente ha segnalato un problema nella richiesta relativa a {dettagli_descrizione} e attende una soluzione.",
+          "Ci è stato comunicato un errore nei dati forniti per {dettagli_descrizione}; occorre intervenire prima di procedere.",
+          "La richiesta del cliente relativa a {dettagli_descrizione} presenta alcune informazioni non corrette che devono essere verificate.",
+          "Abbiamo ricevuto una segnalazione urgente riguardo a {dettagli_descrizione}; il cliente è in attesa di un riscontro.",
+          "I dati associati a {dettagli_descrizione} non corrispondono a quanto richiesto dal cliente e devono essere controllati.",
+          "Il cliente ha chiesto di correggere una situazione relativa a {dettagli_descrizione} prima dell'avvio della lavorazione.",
+          "È emersa una discrepanza nella richiesta di {dettagli_descrizione}; potete verificare la situazione?",
+          "La conferma ricevuta dal cliente non coincide con i dati relativi a {dettagli_descrizione}; serve un controllo prima di procedere.",
+          "Abbiamo bisogno di risolvere una criticità nella richiesta riguardante {dettagli_descrizione} per evitare ritardi nella fornitura.",
+          "Il cliente ha segnalato un'incongruenza relativa a {dettagli_descrizione} e richiede un aggiornamento tempestivo."
+        ], 
+        "priorita": "alta"
+      },
+      {
+        "titolo": "Richiesta preventivo per {dettagli_titolo}",
+        "descrizione": [
+          "Vorrei ricevere una quotazione per {dettagli_descrizione}, indicando anche i costi della personalizzazione.",
+          "Potete preparare un'offerta relativa a {dettagli_descrizione}? Stiamo valutando diverse alternative.",
+          "Avrei bisogno di un preventivo per {dettagli_descrizione}, comprensivo delle lavorazioni richieste.",
+          "Siamo interessati a {dettagli_descrizione} e vorremmo conoscere il prezzo per la quantità indicata.",
+          "Chiedo una proposta commerciale per {dettagli_descrizione} da sottoporre al cliente.",
+          "Vorremmo conoscere le condizioni economiche previste per {dettagli_descrizione}.",
+          "Potete elaborare una stima dei costi per {dettagli_descrizione} con relativa personalizzazione?",
+          "Ci interessa valutare {dettagli_descrizione}; sarebbe possibile ricevere un'offerta dettagliata?",
+          "Vorrei conoscere il costo complessivo di {dettagli_descrizione} prima di confermare la richiesta.",
+          "Avremmo bisogno di una quotazione aggiornata per {dettagli_descrizione}, comprese eventuali spese aggiuntive."
+        ],
+        "priorita": "media"
+      },
+      {
+        "titolo": "Stato ordine {dettagli_titolo}",
+        "descrizione": [
+          "Vorrei sapere a che punto si trova l'ordine relativo a {dettagli_descrizione}.",
+          "Potete verificare lo stato della fornitura di {dettagli_descrizione}?",
+          "Non abbiamo ancora ricevuto aggiornamenti riguardo a {dettagli_descrizione}.",
+          "La commessa relativa a {dettagli_descrizione} risulta ancora in lavorazione?",
+          "Vorrei avere un riscontro sull'avanzamento dell'ordine {dettagli_descrizione}.",
+          "È possibile conoscere la situazione attuale della richiesta relativa a {dettagli_descrizione}?",
+          "Non ho ricevuto conferma dell'evasione di {dettagli_descrizione}; potete effettuare una verifica?",
+          "Avrei bisogno di un aggiornamento sulla fornitura di {dettagli_descrizione}.",
+          "Potete controllare se l'ordine di {dettagli_descrizione} è già stato preso in carico?",
+          "Vorrei sapere se ci sono aggiornamenti riguardo alla spedizione di {dettagli_descrizione}."
+        ], 
+        "priorita": "media"
+      },
+      {
+        "titolo": "Disponibilità articolo {dettagli_titolo}",
+        "descrizione": [
+          "Vorrei sapere se {dettagli_descrizione} è attualmente disponibile.",
+          "Potete verificare la quantità presente a magazzino di {dettagli_descrizione}?",
+          "Stiamo valutando un ordine di {dettagli_descrizione}; è disponibile la quantità richiesta?",
+          "L'articolo {dettagli_descrizione} risulta disponibile per una nuova fornitura?",
+          "Avrei bisogno di sapere se possiamo reperire {dettagli_descrizione} in tempi brevi.",
+          "È prevista una nuova disponibilità per {dettagli_descrizione}?",
+          "Vorrei controllare la giacenza relativa a {dettagli_descrizione} prima di procedere con l'ordine.",
+          "Potete indicarmi se {dettagli_descrizione} è presente nell'assortimento attuale?",
+          "Abbiamo ricevuto una richiesta per {dettagli_descrizione}; potete verificare la disponibilità?",
+          "Sapete indicarmi se {dettagli_descrizione} è ordinabile al momento?"
+        ],
+        "priorita": "bassa"
+      },
+      {
+        "titolo": "Informazioni su prodotto {dettagli_titolo}",
+        "descrizione": [
+          "Vorrei conoscere meglio le caratteristiche di {dettagli_descrizione} prima di proporlo al cliente.",
+          "Potete fornirmi maggiori dettagli relativi a {dettagli_descrizione}?",
+          "Le informazioni presenti nel catalogo su {dettagli_descrizione} non sono sufficienti.",
+          "Avrei bisogno di alcune specifiche aggiuntive riguardo a {dettagli_descrizione}.",
+          "Potete inviarmi una descrizione più completa di {dettagli_descrizione}?",
+          "Vorrei conoscere i materiali e le possibilità di personalizzazione disponibili per {dettagli_descrizione}.",
+          "Mi servirebbero maggiori informazioni sulle caratteristiche di {dettagli_descrizione}.",
+          "Quali sono le principali caratteristiche di {dettagli_descrizione} e le relative opzioni di personalizzazione?",
+          "Vorrei avere qualche dettaglio in più su {dettagli_descrizione} prima di formulare una proposta.",
+          "È possibile ricevere la scheda del prodotto relativa a {dettagli_descrizione}?"
+        ],
+        "priorita": "bassa"
+      },
+      {
+        "titolo": "Modifica ordine {dettagli_titolo}",
+        "descrizione": [
+          "Vorremmo modificare alcuni dettagli dell'ordine relativo a {dettagli_descrizione}.",
+          "È ancora possibile cambiare la quantità richiesta per {dettagli_descrizione}?",
+          "Vorrei aggiungere alcuni articoli alla richiesta relativa a {dettagli_descrizione}.",
+          "È necessario correggere alcune informazioni presenti nell'ordine di {dettagli_descrizione}.",
+          "Potete aggiornare i dati della commessa relativa a {dettagli_descrizione}?",
+          "Vorremmo modificare le quantità previste per {dettagli_descrizione} prima dell'evasione.",
+          "È possibile sostituire alcuni articoli presenti nell'ordine di {dettagli_descrizione}?",
+          "Chiedo di verificare se possiamo ancora intervenire sull'ordine relativo a {dettagli_descrizione}.",
+          "È necessario rettificare alcune voci della richiesta riguardante {dettagli_descrizione}.",
+          "Vorrei sapere se è possibile apportare una modifica all'ordine già inviato per {dettagli_descrizione}."
+          ], 
+          "priorita": "alta"
+        }
+      ],
+      "dettagli_titolo": [
+        "gadget personalizzati",
+        "penne promozionali",
+        "t-shirt personalizzate",
+        "tazze personalizzate",
+        "borse e shopper",
+        "borracce personalizzate",
+        "calendari aziendali",
+        "agende personalizzate",
+        "portachiavi promozionali",
+        "abbigliamento personalizzato",
+        "articoli per eventi",
+        "materiale promozionale",
+        "gadget aziendali",
+        "packaging personalizzato",
+        "etichette adesive",
+        "prodotti per fiere"
+      ], 
+      "dettagli_descrizione": [
+        "100 penne con logo aziendale",
+        "una fornitura di 50 t-shirt personalizzate",
+        "un lotto di gadget per un evento aziendale",
+        "200 shopper con stampa a colori",
+        "una serie di borracce con il logo del cliente",
+        "materiale promozionale per una fiera",
+        "un ordine di articoli personalizzati",
+        "50 agende con stampa del marchio",
+        "una fornitura destinata a un evento",
+        "prodotti con personalizzazione su un lato",
+        "un lotto di portachiavi con incisione",
+        "articoli promozionali per una campagna aziendale",
+        "una piccola quantità di prodotti per un cliente",
+        "una fornitura composta da più articoli",
+        "gadget personalizzati con grafica fornita dal cliente",
+        "prodotti destinati a una nuova campagna promozionale"
+      ]
+    }
+  }
