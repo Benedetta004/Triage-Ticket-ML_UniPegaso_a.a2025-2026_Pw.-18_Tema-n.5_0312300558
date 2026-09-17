@@ -1,51 +1,51 @@
-id,title,body,category,priority
-8pyr8m6q,Sollecito per quota associativa,La scadenza del pagamento ricorrente è passata da alcune settimane. Quando prevede di effettuare il pagamento?,Amministrazione,alta
-0rzfqk77,Tempi di consegna per pacchetto standard,Abbiamo necessità di 10 utenti per il giorno X. È fattibile?,Commerciale,media
-h3wwkjeo,Performance ridotte su backup,"Quando accedo a con credenziali corrette, il sistema diventa molto lento e risponde con ritardo.",Tecnico,media
-867bazz5,Disponibilità articolo toolkit sviluppo,Potete verificare l'inventario di con SLA garantito?,Commerciale,bassa
-edz25uss,Verifica estratto conto servizio cloud,Il prospetto del servizio di supporto mostra addebiti che non tornano.,Amministrazione,media
-hx8q1i8e,criticità nel modulo export dati,C'è un difetto evidente nel comportamento di dal client desktop.,Tecnico,media
-2ujelcw5,Stato ordine toolkit sviluppo,A che punto è l'evasione dell'ordine 50 licenze?,Commerciale,bassa
-tjtypqo1,Richiesta preventivo per software gestionale,Avrei bisogno di un'offerta per con formazione inclusa comprensiva di costi e tempi di implementazione.,Commerciale,media
-syd4i5qm,Interruzione servizio login,Si verifica un'interruzione ripetuta quando accedo a tramite l'interfaccia web.,Tecnico,media
-91e9l3mn,criticità nel modulo integrazione API,Ho riscontrato un comportamento irregolare in attraverso API REST che causa perdita di dati.,Tecnico,alta
-2yqv96uc,Tempi di consegna per toolkit sviluppo,C'è possibilità di recapito immediato per la configurazione enterprise?,Commerciale,bassa
-g5o6tw49,Pagamento quota associativa in sospeso,Il bonifico relativo a l'importo convenuto non è stato ancora accreditato. C'è qualche problema?,Amministrazione,alta
-badbj371,Modifica richiesta piattaforma integrata,Avrei bisogno di modificare l'ordine per il Q2 2024 prima della spedizione.,Commerciale,alta
-5s5qjped,Richiesta fattura per abbonamento annuale,Mi serve urgentemente il documento fiscale della posizione cliente CLI-789 per la chiusura.,Amministrazione,media
-cr84leb5,Sincronizzazione report,Le informazioni di attraverso API REST risultano obsolete rispetto al sistema centrale.,Tecnico,media
-3nzipp40,Anomalia nel modulo dashboard,L'applicazione mostra errori sistematici in con credenziali corrette.,Tecnico,alta
-p92fio9f,Sollecito per consulenza,La scadenza del compenso consulenza è passata da alcune settimane. Quando prevede di effettuare il pagamento?,Amministrazione,alta
-l78b6qc5,Pagamento mese corrente in sospeso,Il bonifico relativo a l'abbonamento trimestrale non è stato ancora accreditato. C'è qualche problema?,Amministrazione,media
-1flx3kjz,Accesso negato a export dati,Ricevo un messaggio di accesso negato ogni volta che provo dal client desktop.,Tecnico,alta
-ijtg051k,Interruzione servizio sincronizzazione,Il sistema va in stop durante l'esecuzione di attraverso API REST e devo riavviare tutto.,Tecnico,alta
-8wjvoq2j,funzionamento irregolare nel modulo login,Si manifesta un bug critico quando opero con codice 500.,Tecnico,alta
-xfzn3sy9,Richiesta preventivo per supporto tecnico,Serve una valutazione economica per per reparto vendite.,Commerciale,media
-ktai6n0b,Interruzione servizio backup,Si verifica un arresto anomalo quando interagisco con dalla versione 2. 3.,Tecnico,alta
-d8tls28m,Tempi di consegna per servizi professionali,Quanto tempo richiede l'evasione di modalità SaaS?,Commerciale,media
-flomp0oe,Richiesta preventivo per toolkit sviluppo,Necessitiamo di un listino aggiornato per la configurazione enterprise.,Commerciale,media
-ywaw6f0u,Sollecito per prestazione professionale,Vorremmo chiudere la pendenza del pagamento ricorrente al più presto.,Amministrazione,alta
-bsnoun0r,Accesso negato a sincronizzazione,Le mie credenziali per in orario di punta non vengono più riconosciute.,Tecnico,alta
-0u0ncgzl,Verifica importo rendiconto rinnovo servizi,L'IVA calcolata su l'accordo commerciale non sembra corrispondere all'aliquota pattuita.,Amministrazione,media
-2a4udjfn,Richiesta preventivo per piano premium,Potete elaborare un'offerta su misura per modalità SaaS?,Commerciale,media
-1j57c2dt,Richiesta preventivo per modulo CRM,Chiedo gentilmente una proposta commerciale per soluzione chiavi in mano da presentare alla direzione.,Commerciale,bassa
-gx20ku2z,Tempi di consegna per piattaforma integrata,Vorrei sapere se per la configurazione enterprise è disponibile la consegna express e a quale costo.,Commerciale,media
-bebg5bme,Stato fabbisogno soluzione cloud,Vorrei un riscontro sullo stato di avanzamento di bundle completo.,Commerciale,media
-f1xx45da,Pagamento consulenza in sospeso,Ho effettuato il bonifico per il compenso consulenza ma non ho ricevuto alcuna conferma.,Amministrazione,alta
-61l1ips0,Interruzione servizio upload file,Ogni tentativo di operare su sulla dashboard principale provoca il blocco del sistema.,Tecnico,bassa
-jxm4s7ie,Richiesta preventivo per software gestionale,Potete inviarmi una quotazione per il cliente aziendale? Stiamo valutando diverse opzioni.,Commerciale,alta
-b45kl49d,Stato ordine modulo CRM,Serve un tracking della fornitura con contratto annuale.,Commerciale,media
-0t3gmb2d,Accesso negato a backup,Il sistema mi impedisce di entrare in in ambiente produzione dicendo che non ho i permessi.,Tecnico,alta
-do159wrt,Sincronizzazione backup,Le informazioni di in modalità avanzata risultano obsolete rispetto al sistema centrale.,Tecnico,media
-9c66au5w,Richiesta conteggio per periodo fiscale,Manca la documentazione per il compenso consulenza. Potete fornirla in formato pdf?,Amministrazione,media
-6x0gu61a,Accesso negato a import massivo,Le mie credenziali per dopo l'ultimo aggiornamento non vengono più riconosciute.,Tecnico,bassa
-e8z5bfr9,Documentazione contabile consulenza,Vorrei ottenere la reportistica di l'ordine ORD-2024-001 per verifica interna.,Amministrazione,bassa
-93x0z5sg,Verifica estratto conto prestazione professionale,Nell'estratto del compenso consulenza c'è una transazione che non ricordo di aver autorizzato.,Amministrazione,media
-kdaa1v65,Anomalia nel modulo workflow,Rilevo anomalie persistenti nell'elaborazione di nel servizio schedulato.,Tecnico,alta
-sj6brs7l,Modifica commessa servizi professionali,Potete aggiornare i dettagli dell'ordine con formazione inclusa?,Commerciale,alta
-p9h0kwi9,Richiesta rimborso per anno contabile,Vorrei richiedere il rimborso per l'abbonamento trimestrale in quanto il servizio non è stato fornito come concordato.,Amministrazione,media
-dviv2k12,Richiesta fattura per periodo fiscale,La fattura per l'accordo commerciale non è disponibile nel nostro sistema. Sarebbe possibile riceverla?,Amministrazione,media
-kes7eqdy,Comportamento anomalo durante archiviazione,"Quando provo a con file superiori a 10MB, il sistema non completa l'operazione come dovrebbe.",Tecnico,bassa
-6k5kh95l,Disponibilità articolo piattaforma integrata,Siamo interessati a ordinare per sede Milano ma sul sito risulta non disponibile.,Commerciale,bassa
-50pj374x,Pagamento trimestre chiuso in sospeso,Il pagamento di l'ordine ORD-2024-001 risulta ancora in elaborazione da diversi giorni. Potete verificare lo stato?,Amministrazione,media
-4mvn9kea,Sollecito per Q1 2024,La scadenza della fornitura di dicembre è passata da alcune settimane. Quando prevede di effettuare il pagamento?,Amministrazione,alta
+﻿id,title,body,category,priority
+8el8umuh,Pagamento trimestre chiuso in sospeso,Dopo alcuni giorni non abbiamo ricevuto conferma dell'avvenuta operazione gennaio 2024.,Amministrazione,alta
+ajw119pl,Modifica ordine agende personalizzate,Potete aggiornare i dati della commessa relativa a una piccola quantità di prodotti per un cliente?,Commerciale,alta
+e6067snz,Accesso negato a configuratore gadget,La sessione su un file destinato al reparto produttivo viene chiusa automaticamente dopo l'autenticazione.,Tecnico,alta
+od74wz8i,Modifica ordine materiale promozionale,È possibile sostituire alcuni articoli presenti nell'ordine di un lotto di gadget per un evento aziendale?,Commerciale,alta
+0ga683vn,Sollecito per abbonamento annuale,La situazione contabile della fornitura di dicembre necessita di un aggiornamento.,Amministrazione,alta
+7q1wm5t6,Richiesta di supporto per configuratore gadget,Avrei bisogno di un'indicazione sui passaggi necessari per completare un prodotto configurato tramite il portale.,Tecnico,bassa
+s8im1afl,Modifica ordine prodotti per fiere,Vorrei sapere se è possibile apportare una modifica all'ordine già inviato per gadget personalizzati con grafica fornita dal cliente.,Commerciale,alta
+5g38vq5x,Informazioni su prodotto prodotti per fiere,Potete inviarmi una descrizione più completa di una fornitura di 50 t-shirt personalizzate?,Commerciale,bassa
+dh3i6xh9,Comportamento anomalo durante gestione ordini,"Durante la gestione di un ordine di gadget personalizzati, il gestionale restituisce un risultato diverso da quello previsto.",Tecnico,alta
+y5ms1e5o,Sincronizzazione configuratore gadget,Le modifiche effettuate su alcuni articoli destinati alla produzione non vengono immediatamente riportate nelle altre sezioni.,Tecnico,media
+q54ucnuc,Disponibilità articolo borse e shopper,Vorrei sapere se una fornitura composta da più articoli è attualmente disponibile.,Commerciale,bassa
+no4yvfu0,Documentazione contabile abbonamento annuale,Chiedo di ricevere la reportistica relativa a l'abbonamento trimestrale.,Amministrazione,bassa
+m1uqnatz,Stato ordine prodotti per fiere,Avrei bisogno di un aggiornamento sulla fornitura di un ordine di articoli personalizzati.,Commerciale,media
+02q3k6e3,Pagamento rinnovo servizi in sospeso,La somma destinata al contratto quadro non è ancora stata contabilizzata.,Amministrazione,alta
+e9zh82om,Accesso negato a distinta di produzione,"Dopo diversi tentativi, continuo a ricevere un messaggio di accesso negato per una serie di articoli con la stessa grafica.",Tecnico,alta
+8vgi6q8z,Funzionalità configuratore gadget non operativa,"Il modulo dedicato alla configurazione di una nuova lavorazione consente di iniziare la procedura, ma non di completarla.",Tecnico,media
+lsu93ksd,Documentazione amministrativa anno contabile,Potete fornire il riepilogo delle operazioni effettuate per la fattura n. 567?,Amministrazione,bassa
+x61diwuw,Pagamento consulenza in sospeso,Vorrei verificare lo stato del pagamento relativo a l'accordo commerciale che risulta ancora in elaborazione,Amministrazione,alta
+44mb3fpm,Sincronizzazione configuratore gadget,L'aggiornamento automatico di una commessa con più articoli avviene con diversi minuti di elaborazione lenta.,Tecnico,media
+6u4x6th4,Accesso negato a modulo stampa,Dopo l'ultimo aggiornamento non riesco ad entrare in un lotto di t-shirt personalizzate.,Tecnico,alta
+bx63na7q,Richiesta di supporto per stato della produzione,Mi servirebbe supporto per capire come gestire un file col logo del cliente nel gestionale.,Tecnico,bassa
+wtkh0lvr,Stato ordine packaging personalizzato,Vorrei sapere se ci sono aggiornamenti riguardo alla spedizione di una fornitura composta da più articoli.,Commerciale,media
+2w4zky5w,Accesso negato a anteprima grafica,Le credenziali utilizzate per una lavorazione destinata alla stampa non vengono più riconosciute.,Tecnico,alta
+aqzwx04h,Modifica ordine tazze personalizzate,Vorremmo modificare le quantità previste per 200 shopper con stampa a colori prima dell'evasione.,Commerciale,alta
+vw1qsdbo,Informazioni su prodotto abbigliamento personalizzato,Potete inviarmi una descrizione più completa di gadget personalizzati con grafica fornita dal cliente?,Commerciale,bassa
+zs0qebcf,Documentazione contabile mese corrente,Chiedo di ricevere la reportistica relativa a l'ordine ORD-2024-001.,Amministrazione,bassa
+9g16987l,Richiesta di supporto per configuratore gadget,Potete indicarmi come utilizzare correttamente un prodotto configurato tramite il portale nelle prossime lavorazioni?,Tecnico,bassa
+laulis63,Richiesta rimborso per prestazione professionale,È possibile procedere con un riaccredito relativo al compenso consulenza.,Amministrazione,media
+6g57cmrv,Modifica ordine prodotti per fiere,È possibile sostituire alcuni articoli presenti nell'ordine di una fornitura composta da più articoli?,Commerciale,alta
+164lxpyj,Disponibilità articolo abbigliamento personalizzato,Sapete indicarmi se un ordine cliente di articoli personalizzati è ordinabile al momento?,Commerciale,bassa
+h5wb38aj,Stato ordine gadget aziendali,È possibile conoscere la situazione attuale della richiesta relativa a articoli promozionali per una campagna aziendale?,Commerciale,media
+2zvi52od,Disponibilità articolo articoli per eventi,Abbiamo ricevuto una richiesta per un lotto di portachiavi con incisione; potete verificare la disponibilità?,Commerciale,bassa
+n17hx4yz,Richiesta rimborso per contratto di manutenzione,Abbiamo pagato per la transazione del 15/10 ma il servizio non è mai stato attivato. Come possiamo procedere?,Amministrazione,media
+wjmeofw7,Sincronizzazione impostazioni macchina,L'aggiornamento automatico di un lotto di t-shirt personalizzate avviene con diversi minuti di ritardo.,Tecnico,media
+c7ilp7tp,Richiesta fattura per contratto di manutenzione,Avrei necessità di ricevere copia della documentazione l'ordine ORD-2024-001. Sarebbe possibile riceverla?,Commerciale,media
+hq7450pu,Disponibilità articolo gadget personalizzati,Vorrei controllare la giacenza relativa a una piccola quantità di prodotti per un cliente prima di procedere con l'ordine.,Commerciale,bassa
+p4c3utf6,Sincronizzazione anteprima grafica,Ho notato una differenza tra le informazioni di un ordine con quantità elevate e quelle presenti nel sistema centrale.,Tecnico,media
+t3lybugv,Richiesta di supporto per configuratore gadget,È possibile ricevere indicazioni sulla gestione di alcuni articoli destinati alla produzione?,Tecnico,bassa
+73bp5xok,Pagamento prestazione professionale in sospeso,Il bonifico relativo alla fattura n. 567 non compare ancora tra le operazioni registrate. Potete verificare?,Amministrazione,alta
+lts5v9t1,Configurazione configuratore gadget,"Ho seguito le indicazioni disponibili per un file destinato al reparto produttivo, ma non riesco a completare tutti i passaggi.",Tecnico,bassa
+r6s078io,Pagamento anno contabile in sospeso,"Il saldo il pagamento ricorrente dovrebbe già essere stato processato, ma non risulta.",Amministrazione,alta
+txple88l,Pagamento prestazione professionale in sospeso,"Il saldo la fattura n. 567 dovrebbe già essere stato processato, ma non risulta.",Amministrazione,alta
+wttes6jj,Sincronizzazione configuratore gadget,L'aggiornamento automatico di un file destinato al reparto produttivo avviene con diversi minuti di ritardo.,Tecnico,media
+x7pl2pjc,Modifica ordine gadget aziendali,Vorrei aggiungere alcuni articoli alla richiesta relativa a un lotto di gadget per un evento aziendale.,Commerciale,alta
+au8eubwm,Richiesta rimborso per canone mensile,La somma corrisposta dovrebbe essere restituita a seguito del disservizio per il pagamento ricorrente.,Amministrazione,media
+vz7pho4g,Pagamento periodo fiscale in sospeso,Non troviamo evidenza dell'operazione associata al compenso consulenza,Amministrazione,alta
+ukh3t55q,Accesso negato a anteprima grafica,Le credenziali utilizzate per una serie di prodotti promozionali non vengono più riconosciute.,Tecnico,alta
+87u029ri,Informazioni su prodotto articoli per eventi,Vorrei conoscere meglio le caratteristiche di un ordine di articoli personalizzati prima di proporlo al cliente.,Commerciale,bassa
+z8b0c6fm,Documentazione amministrativa prestazione professionale,Vorrei consultare il dettaglio delle operazioni riguardanti l'ordine ORD-2024-001 per un controllo amministrativo.,Amministrazione,bassa
+1uu9y6s8,Pagamento licenza software in sospeso,"Il saldo la transazione del 15/10 dovrebbe già essere stato processato, ma non risulta.",Amministrazione,alta
