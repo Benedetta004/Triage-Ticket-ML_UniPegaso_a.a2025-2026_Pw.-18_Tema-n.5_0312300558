@@ -1,0 +1,51 @@
+﻿id,title,body,category,priority
+afk7lqpt,Documentazione contabile trimestre chiuso,Chiedo di ricevere la reportistica relativa a contratto n. 12345.,Amministrazione,bassa
+06ac7kab,Modifica ordine penne promozionali,È necessario modificare alcuni dettagli dell'ordine relativo a una fornitura composta da più articoli prima di procedere con l'evasione.,Commerciale,alta
+scd8dgb4,Comportamento anomalo durante archivio grafiche,"Quando provo a elaborare una commessa con più articoli, il sistema interrompe la procedura senza completare l'operazione.",Tecnico,alta
+oe81scv3,Disguido con richiesta cliente borracce personalizzate,Il cliente ha segnalato un'incongruenza relativa a una fornitura destinata a un evento e richiede un aggiornamento.,Commerciale,media
+mku8mvis,Documentazione amministrativa mese corrente,Vorrei consultare il dettaglio delle operazioni riguardanti l'accordo commerciale.,Amministrazione,bassa
+64hkt32f,Comportamento anomalo durante catalogo prodotti,L'applicazione presenta un comportamento inatteso durante una serie di articoli con la stessa grafica e il problema impedisce di completare la procedura.,Tecnico,alta
+t0yhv5j0,Informazioni su prodotto t-shirt personalizzate,Avrei bisogno di alcune specifiche aggiuntive riguardo a materiale promozionale per una fiera.,Commerciale,bassa
+5n8yycl4,Stato commessa abbigliamento personalizzato,Vorrei sapere a che punto si trova l'ordine relativo a 50 agende con stampa del marchio.,Commerciale,media
+91sgegw6,Funzionalità gestione clienti non operativa,La funzione relativa a una serie di articoli con la stessa grafica non completa l'operazione richiesta.,Tecnico,media
+om88notp,Sincronizzazione impostazioni macchina,I dati presenti in un prodotto configurato tramite il portale non coincidono con quelli visualizzati nel gestionale.,Tecnico,media
+b58plbyh,Sollecito per fornitura materiali,"Chiediamo un aggiornamento sulla posizione cliente CLI-789, che risulta ancora in arretrato.",Commerciale,alta
+94wg2l0j,Documentazione contabile quota associativa,Stiamo raccogliendo la documentazione relativa a gennaio 2024 e vorremmo avere anche il relativo prospetto.,Amministrazione,bassa
+jehbx0tz,Modifica ordine cliente t-shirt personalizzate,"Vorrei sapere se è ancora possibile apportare una modifica all'ordine già inviato per un lotto di gadget per un evento aziendale, poiché è necessario intervenire prima dell'avvio della lavorazione.",Commerciale,alta
+hk4c65uf,Richiesta rimborso per periodo fiscale,Vorrei richiedere la restituzione della somma versata per la fornitura di dicembre in quanto il servizio non è stato fornito come concordato.,Amministrazione,media
+dnjjuqj4,Richiesta di supporto per distinta di produzione,Potreste darmi alcune indicazioni per gestire un lotto di t-shirt personalizzate?,Tecnico,bassa
+ah2b42o6,Configurazione modulo stampa,Vorrei cambiare alcune impostazioni relative a una commessa con più articoli.,Tecnico,bassa
+ckw6tro2,Sollecito per quota associativa,La posizione relativa alla transazione del 15/10 è ancora in sospeso e sta ritardando la gestione della pratica. È necessario un intervento per poter procedere con la chiusura.,Amministrazione,alta
+q37yyiuv,Pagamento licenza software in sospeso,Il bonifico relativo al compenso consulenza non compare ancora tra le operazioni registrate. Potete verificare con urgenza?,Amministrazione,alta
+v1el2z2i,Richiesta di supporto per archivio grafiche,Vorrei sapere se esiste una procedura specifica per un file destinato al reparto produttivo.,Tecnico,bassa
+5c72r95t,Sincronizzazione catalogo prodotti,Le modifiche apportate durante la giornata non vengono trasferite correttamente a un ordine con quantità elevate.,Tecnico,media
+k0dg4gs2,Configurazione generazione etichette,Vorrei verificare le impostazioni disponibili per una grafica caricata dal cliente.,Tecnico,media
+kvs7z0gi,Stato articoli richiesti borracce personalizzate,Avrei bisogno di un aggiornamento sulla fornitura di una fornitura composta da più articoli.,Commerciale,media
+3v8606p1,Sollecito per fornitura materiali,"Chiediamo un aggiornamento su l'prodotti ordinati ORD-2024-001, che risulta ancora in arretrato.",Commerciale,alta
+oyf3doq5,Richiesta preventivo per gadget aziendali,Vorrei conoscere il costo complessivo di prodotti con personalizzazione su un lato prima di confermare la richiesta.,Commerciale,media
+x5vsfoaf,Stato richiesta di fornitura gadget aziendali,Potete verificare lo stato della fornitura di 100 penne con logo aziendale?,Commerciale,media
+5ddgp5l9,Richiesta rimborso per quota associativa,"Considerato il mancato servizio la posizione cliente CLI-789, chiediamo di stornare la somma versata.",Amministrazione,media
+h0988h15,Sincronizzazione caricamento file,I dati presenti in una grafica caricata dal cliente non coincidono con quelli visualizzati nel gestionale.,Tecnico,media
+1ajhgecu,Richiesta fattura per anno contabile,Potete controllare se la fattura il contratto quadro è stata emessa?,Amministrazione,media
+vd4u0at8,Modifica ordine borracce personalizzate,Dobbiamo aggiornare con urgenza i dati della commessa relativa a una fornitura di 50 t-shirt personalizzate prima dell'avvio della lavorazione.,Commerciale,alta
+9ff4vp2w,Disguido con richiesta cliente gadget aziendali,La conferma ricevuta dal cliente non coincide coi dati relativi a articoli promozionali per una campagna aziendale; è necessario un controllo prima di procedere.,Commerciale,alta
+ydlv7j39,Richiesta preventivo per prodotti per fiere,Ci interessa valutare un ordine di articoli personalizzati; sarebbe possibile ricevere un'offerta dettagliata?,Commerciale,media
+wrir32ar,Stato ordine cliente packaging personalizzato,Potete verificare lo stato della fornitura di un ordine di articoli personalizzati?,Commerciale,media
+ree94on7,Documentazione amministrativa quota associativa,È possibile ottenere la reportistica amministrativa relativa a contratto n. 12345?,Amministrazione,bassa
+5ul1lybm,Comportamento anomalo durante scheda prodotto,La procedura relativa a una serie di articoli con la stessa grafica non produce sempre lo stesso risultato e in alcuni casi impedisce di completare la lavorazione.,Tecnico,alta
+h1up3mkr,Disguido con richiesta cliente borse e shopper,Abbiamo ricevuto una segnalazione riguardo a una fornitura destinata a un evento; il cliente è ancora in attesa di un riscontro e la problematica sta causando un ritardo nelle attività previste. È necessario intervenire prima di poter procedere.,Commerciale,alta
+83zs4u30,Modifica ordine t-shirt personalizzate,È necessario modificare alcuni dettagli dell'ordine relativo a una piccola quantità di prodotti per un cliente prima di procedere con l'evasione.,Commerciale,alta
+c9ih70w8,Richiesta di supporto per modulo stampa,Vorrei conoscere le impostazioni consigliate per la bozza grafica di una commessa.,Tecnico,bassa
+7axibs0i,Comportamento anomalo durante modulo stampa,"Durante la lavorazione di un prodotto configurato tramite il portale, alcune informazioni vengono visualizzate in modo non corretto e compromettono la procedura.",Tecnico,bassa
+pyeei1h4,Richiesta rimborso per rinnovo servizi,"Considerato il mancato servizio il pagamento ricorrente, chiediamo di stornare la somma versata.",Amministrazione,media
+7ulztzgw,Comportamento anomalo durante modulo stampa,"Quando provo a elaborare un ordine ricevuto dal sito, il sistema interrompe la procedura senza completare l'operazione.",Tecnico,alta
+pm9q7mqc,Pagamento canone mensile in sospeso,Il bonifico relativo a gennaio 2024 non compare ancora tra le operazioni registrate. Potete verificare con urgenza?,Amministrazione,media
+332ttru9,Richiesta rimborso per licenza software,È necessario annullare l'addebito associato a contratto n. 12345?,Amministrazione,media
+v83a4uw1,Configurazione preparazione commessa,Vorrei cambiare alcune impostazioni relative a un prodotto configurato tramite il portale.,Tecnico,bassa
+tpwwjb3z,Disponibilità articolo prodotti per fiere,Potete indicarmi se prodotti destinati a una nuova campagna promozionale è presente nell'assortimento attuale?,Commerciale,bassa
+ocbyp211,Richiesta rimborso per contratto di manutenzione,Vorrei ottenere un conguaglio per la prestazione relativa a l'ordine ORD-2024-001.,Amministrazione,media
+lt0ewdlw,Richiesta fattura per quota associativa,Potete controllare se la fattura il contratto quadro è stata emessa?,Amministrazione,media
+7jp1pvq9,Comportamento anomalo durante caricamento file,Il sistema gestisce in maniera irregolare un ordine con quantità elevate e in alcuni casi interrompe il processo.,Tecnico,alta
+i2l8i6zv,Pagamento fornitura materiali in sospeso,"Non abbiamo ancora ricevuto conferma dell'avvenuta operazione relativa a l'commessa ORD-2024-001. Quindi, dopo alcuni giorni trascorsi chiediamo verificare. ",Commerciale,media
+8sfrdcmp,Richiesta rimborso per contratto di manutenzione,La prestazione ricevuta per il servizio premium non rispetta quanto concordatoe vorrei richiedere la restituzione.,Amministrazione,media
+27eovpz2,Sollecito per quota associativa,"Chiediamo un aggiornamento sul contratto quadro, che risulta ancora in arretrato.",Amministrazione,alta
