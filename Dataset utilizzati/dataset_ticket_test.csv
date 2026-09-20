@@ -1,0 +1,51 @@
+﻿id,title,body,category,priority
+p7b35tzq,Disguido con richiesta cliente prodotti per fiere,La conferma ricevuta dal cliente non coincide coi dati relativi a un lotto di portachiavi con incisione; è necessario un controllo prima di procedere.,Commerciale,alta
+ug7tzd9x,Comportamento anomalo durante preparazione commessa,"Il problema compare durante un file col logo del cliente, anche dopo aver ripetuto la procedura, impedendo il completamento dell'operazione.",Tecnico,alta
+1ma79jsp,Informazioni su prodotto t-shirt personalizzate,Vorrei ricevere maggiori informazioni sul prodotto un lotto di gadget per un evento aziendale.,Commerciale,bassa
+2es7he00,Richiesta bollettino per Q1 2024,Nei nostri archivi non compare il documento gennaio 2024.,Amministrazione,media
+9icrhfl5,Stato ordine gadget aziendali,È possibile conoscere la situazione attuale della richiesta relativa a una fornitura di 50 t-shirt personalizzate?,Commerciale,media
+jy55t88r,Richiesta di supporto per anteprima grafica,Vorrei verificare il corretto utilizzo di una serie di articoli con la stessa grafica prima di procedere con l'ordine.,Tecnico,media
+ib6v92ta,Informazioni su prodotto abbigliamento personalizzato,Vorrei conoscere i materiali e le possibilità di personalizzazione disponibili per una fornitura di 50 t-shirt personalizzate.,Commerciale,bassa
+pgdavp77,Sincronizzazione gestione ordini,Le modifiche apportate durante la giornata non vengono trasferite correttamente a un file destinato al reparto produttivo.,Tecnico,media
+l5d9eyxb,Richiesta di supporto per gestione clienti,Desidero alcune indicazioni sui passaggi relativi alla configurazione di una nuova lavorazione.,Tecnico,bassa
+gv6j0arb,Richiesta bollettino per consulenza,Non trovo traccia della ricevuta per l'accordo commerciale nel sistema contabile.,Amministrazione,bassa
+rcigfll1,Sollecito per abbonamento annuale,È passato più di un mese dalla scadenza del servizio di supporto e non abbiamo ancora ricevuto riscontro.,Amministrazione,alta
+0afnew40,Comportamento anomalo durante generazione etichette,Il sistema gestisce in maniera irregolare alcuni articoli destinati alla produzione e in alcuni casi interrompe il processo.,Tecnico,alta
+jylqps92,Configurazione anteprima grafica,Vorrei cambiare alcune impostazioni relative a una lavorazione per incisione.,Tecnico,bassa
+enzuz4l9,Comportamento anomalo durante esportazione lavorazione,"Durante la gestione di una serie di articoli con la stessa grafica, il gestionale restituisce un risultato diverso da quello previsto e impedisce di completare correttamente l'operazione.",Tecnico,alta
+wike1i85,Richiesta rimborso per fornitura materiali,È possibile procedere con un riaccredito relativo al pagamento ricorrente.,Amministrazione,media
+0vo0nrp0,Informazioni su prodotto abbigliamento personalizzato,Vorrei conoscere i materiali e le possibilità di personalizzazione disponibili per un prodotti ordinati di articoli personalizzati.,Commerciale,bassa
+03k1s7wz,Sollecito per fornitura materiali,"È necessario un aggiornamento sulla posizione l'abbonamento trimestrale, che risulta ancora aperta e sta ritardando la conclusione della pratica.",Commerciale,alta
+82mvta7u,Sollecito per servizio cloud,Vorremmo ricevere quanto prima un aggiornamento sulla pendenza relativa alla posizione cliente CLI-789.,Amministrazione,alta
+6u69p0qy,Richiesta preventivo per prodotti per fiere,Siamo interessati a 200 shopper con stampa a colori e vorremmo conoscere il prezzo per la quantità indicata.,Commerciale,media
+imwnz764,Richiesta fattura per servizio cloud,"Potete controllare la disponibilità del documento il contratto quadro, nel nostro sistema non è presente.",Amministrazione,media
+5671qxne,Funzionalità modulo stampa non operativa,Non riesco a completare un ordine ricevuto dal sito; l'interfaccia rimane attiva ma la funzione non risponde.,Tecnico,media
+ocui59pd,Sollecito per abbonamento annuale,La pratica indicata come il servizio di supporto non risulta ancora definita e sta ritardando la chiusura della posizione.,Amministrazione,alta
+vdfv5qt0,Documentazione contabile quota associativa,Desidereremmo avere il riepilogo delle operazioni associate al pagamento ricorrente.,Amministrazione,bassa
+rw6s80zx,Documentazione contabile licenza software,Stiamo raccogliendo la documentazione relativa a l'abbonamento trimestrale e vorremmo avere anche il relativo prospetto.,Amministrazione,bassa
+kwzj4jnk,Richiesta di supporto per stato della produzione,Sarei interessato a conoscere maggiormente alcune informazioni aggiuntive per gestire una commessa con più articoli.,Tecnico,bassa
+xl2lzp5t,Disponibilità articolo borracce personalizzate,Potete indicarmi se 100 penne con logo aziendale è presente nell'assortimento attuale?,Commerciale,bassa
+4szv7p5i,Stato ordine materiale promozionale,Potete controllare se l'ordine di materiale promozionale per una fiera è già stato preso in carico?,Commerciale,media
+36rsvomc,Richiesta documento per periodo fiscale,È possibile ottenere una copia del documento contabile il servizio di supporto.,Amministrazione,bassa
+2dkm1clw,Richiesta rimborso per periodo fiscale,Vorrei ottenere un conguaglio per la prestazione relativa al pagamento ricorrente.,Amministrazione,media
+1nnejbg0,Documentazione contabile fornitura materiali,Vorrei recuperare i documenti collegati alla fattura n. 567.,Commerciale,bassa
+zzy6oaqd,Comportamento anomalo durante archivio grafiche,"Ho riscontrato un'anomalia mentre preparavo un prodotto configurato tramite il portale per la produzione, impedendo di procedere regolarmente.",Tecnico,alta
+edms0k6t,Comportamento anomalo durante impostazioni macchina,"Durante la gestione di un ordine con quantità elevate, il gestionale restituisce un risultato diverso da quello previsto e impedisce di completare correttamente l'operazione.",Tecnico,alta
+1obdq4ns,Pagamento trimestre chiuso in sospeso,Vorrei sapere con urgenza a che punto è il trasferimento dei fondi per contratto n. 12345.,Amministrazione,alta
+9vpzkhl0,Comportamento anomalo durante archivio grafiche,L'applicazione presenta un comportamento inatteso urgente durante la bozza grafica di una commessa e non consente di completare la procedura.,Tecnico,alta
+r4otjeol,Stato ordine t-shirt personalizzate,Vorrei avere un riscontro sull'avanzamento dell'ordine un lotto di gadget per un evento aziendale.,Commerciale,media
+u17dfifa,Comportamento anomalo durante anteprima grafica,Il sistema gestisce in maniera irregolare un prodotto configurato tramite il portale e in alcuni casi interrompe il processo.,Tecnico,alta
+gy3uuxia,Modifica materiale richiesto portachiavi promozionali,È richiesta la modifica delle quantità previste per una fornitura destinata a un evento prima dell'evasione dell'ordine.,Commerciale,alta
+aa81x6v5,Stato ordine gadget personalizzati,Non ho ricevuto conferma dell'evasione di una fornitura composta da più articoli; potete effettuare una verifica?,Commerciale,media
+uoxffw62,Disponibilità articolo articoli per eventi,Vorrei sapere se articoli promozionali per una campagna aziendale è attualmente disponibile.,Commerciale,bassa
+u4424kj0,Richiesta fattura per rinnovo servizi,Mi servirebbe il documento fiscale di l'ordine ORD-2024-001 per la chiusura.,Amministrazione,media
+6mzllwcs,Configurazione archivio grafiche,Vorrei verificare le impostazioni disponibili per una lavorazione destinata alla stampa.,Tecnico,media
+kbe16e01,Configurazione impostazioni macchina,Potrei avere delle indicazioni per configurare un ordine ricevuto dal sito.,Tecnico,bassa
+csv949ok,Richiesta polizza per licenza software,Non trovo traccia della ricevuta per gennaio 2024 nel sistema contabile.,Amministrazione,media
+2nufc5v2,Sincronizzazione generazione etichette,La sincronizzazione di un ordine di gadget personalizzati non avviene subito dopo la modifica dell'ordine.,Tecnico,media
+zmcfn40c,Documentazione amministrativa periodo fiscale,Chiedo l'invio della documentazione fiscale collegata alla fornitura di dicembre.,Commerciale,bassa
+x774588f,Informazioni su prodotto agende personalizzate,Vorrei avere qualche dettaglio in più su un prodotti ordinati di articoli personalizzati prima di formulare una proposta.,Commerciale,bassa
+p79pshog,Comportamento anomalo durante scheda prodotto,"Durante la gestione di una lavorazione destinata alla stampa, il gestionale restituisce un risultato diverso da quello previsto e impedisce di completare correttamente l'operazione.",Tecnico,alta
+07vkh6t0,Informazioni su prodotto calendari aziendali,Quali sono le principali caratteristiche di materiale promozionale per una fiera e le relative opzioni di personalizzazione?,Commerciale,bassa
+b3p04qw6,Richiesta rimborso per servizio premium,Vorrei ottenere un conguaglio per la prestazione relativa al pagamento ricorrente.,Amministrazione,media
+6opbs4q5,Stato richiesta t-shirt personalizzate,È possibile conoscere la situazione attuale della richiesta relativa a 200 shopper con stampa a colori?,Commerciale,media
